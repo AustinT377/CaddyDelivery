@@ -3,17 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63E235D22CBF13D0089FE1D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E235C22CBF13D0089FE1D /* CreateAccountViewController.swift */; };
+		A63E236022CBF3560089FE1D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E235F22CBF3560089FE1D /* Common.swift */; };
+		A63E236222CBFD3A0089FE1D /* KeyboardDoneBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63E236122CBFD3A0089FE1D /* KeyboardDoneBar.xib */; };
+		A63E236422CCEE6D0089FE1D /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E236322CCEE6D0089FE1D /* LoadingIndicatorView.swift */; };
+		A63E236722CCF57C0089FE1D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E236622CCF57C0089FE1D /* UserModel.swift */; };
+		A63E236C22CCFF370089FE1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E236B22CCFF370089FE1D /* LoginViewController.swift */; };
+		A63E236E22CD294D0089FE1D /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E236D22CD294D0089FE1D /* TermsOfServiceViewController.swift */; };
+		A63E237122CD30AC0089FE1D /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E237022CD30AC0089FE1D /* MenuTableViewController.swift */; };
+		A63E237422CD3A5F0089FE1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63E237322CD3A5F0089FE1D /* HomeViewController.swift */; };
 		A6BE788D22C159CF00AB7D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE788C22C159CF00AB7D65 /* AppDelegate.swift */; };
-		A6BE788F22C159CF00AB7D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE788E22C159CF00AB7D65 /* ViewController.swift */; };
-		A6BE789222C159CF00AB7D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE789022C159CF00AB7D65 /* Main.storyboard */; };
+		A6BE789222C159CF00AB7D65 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE789022C159CF00AB7D65 /* Login.storyboard */; };
 		A6BE789422C159D000AB7D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BE789322C159D000AB7D65 /* Assets.xcassets */; };
 		A6BE789722C159D000AB7D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE789522C159D000AB7D65 /* LaunchScreen.storyboard */; };
 		A6BE78A222C159D000AB7D65 /* MuncheeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE78A122C159D000AB7D65 /* MuncheeTests.swift */; };
 		A6BE78AD22C159D000AB7D65 /* MuncheeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE78AC22C159D000AB7D65 /* MuncheeUITests.swift */; };
+		A6BE78BE22C163ED00AB7D65 /* DriverLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78BD22C163ED00AB7D65 /* DriverLogin.storyboard */; };
+		A6BE78C522C16C4900AB7D65 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE78C422C16C4900AB7D65 /* SWRevealViewController.m */; };
+		A6BE78C722C2722600AB7D65 /* UserMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78C622C2722600AB7D65 /* UserMain.storyboard */; };
+		A6BE78CA22C29CDE00AB7D65 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78C922C29CDE00AB7D65 /* Profile.storyboard */; };
+		A6BE78CC22C29CEF00AB7D65 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78CB22C29CEF00AB7D65 /* Order.storyboard */; };
+		A6BE78CE22C29D0A00AB7D65 /* OrderHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78CD22C29D0A00AB7D65 /* OrderHistory.storyboard */; };
+		A6BE78D022C29D1C00AB7D65 /* ContactUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78CF22C29D1C00AB7D65 /* ContactUs.storyboard */; };
+		A6BE78D222C29D2E00AB7D65 /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BE78D122C29D2E00AB7D65 /* Application.storyboard */; };
 		D2888F1FD46D2C1CDF355624 /* Pods_MuncheeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A192EDFE366FF3C0B2DEA72 /* Pods_MuncheeUITests.framework */; };
 		F6259ABBAF9960ECD1CC2F5C /* Pods_MuncheeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AC4F34BB26845163A75A4B /* Pods_MuncheeTests.framework */; };
 		FF59CECB71AF085E9E1641EC /* Pods_Munchee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5DC09ABE5819B59831DD82 /* Pods_Munchee.framework */; };
@@ -46,10 +62,18 @@
 		85AE415C2DEFF24C9DDE0952 /* Pods-Munchee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Munchee.release.xcconfig"; path = "Target Support Files/Pods-Munchee/Pods-Munchee.release.xcconfig"; sourceTree = "<group>"; };
 		87AC4F34BB26845163A75A4B /* Pods_MuncheeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuncheeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E3575C218B8039F4D60C61 /* Pods-MuncheeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuncheeTests.release.xcconfig"; path = "Target Support Files/Pods-MuncheeTests/Pods-MuncheeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A63E235C22CBF13D0089FE1D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A63E235F22CBF3560089FE1D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A63E236122CBFD3A0089FE1D /* KeyboardDoneBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardDoneBar.xib; sourceTree = "<group>"; };
+		A63E236322CCEE6D0089FE1D /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		A63E236622CCF57C0089FE1D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A63E236B22CCFF370089FE1D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A63E236D22CD294D0089FE1D /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
+		A63E237022CD30AC0089FE1D /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		A63E237322CD3A5F0089FE1D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A6BE788922C159CF00AB7D65 /* Munchee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BE788C22C159CF00AB7D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6BE788E22C159CF00AB7D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6BE789122C159CF00AB7D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6BE789122C159CF00AB7D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		A6BE789322C159D000AB7D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6BE789622C159D000AB7D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6BE789822C159D000AB7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +83,16 @@
 		A6BE78A822C159D000AB7D65 /* MuncheeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuncheeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BE78AC22C159D000AB7D65 /* MuncheeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncheeUITests.swift; sourceTree = "<group>"; };
 		A6BE78AE22C159D000AB7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BE78BD22C163ED00AB7D65 /* DriverLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DriverLogin.storyboard; sourceTree = "<group>"; };
+		A6BE78C222C16C4900AB7D65 /* Munchee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munchee-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6BE78C322C16C4900AB7D65 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A6BE78C422C16C4900AB7D65 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A6BE78C622C2722600AB7D65 /* UserMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserMain.storyboard; sourceTree = "<group>"; };
+		A6BE78C922C29CDE00AB7D65 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A6BE78CB22C29CEF00AB7D65 /* Order.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		A6BE78CD22C29D0A00AB7D65 /* OrderHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderHistory.storyboard; sourceTree = "<group>"; };
+		A6BE78CF22C29D1C00AB7D65 /* ContactUs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactUs.storyboard; sourceTree = "<group>"; };
+		A6BE78D122C29D2E00AB7D65 /* Application.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +133,6 @@
 				7C4861BD0A1BB1CE52F8669B /* Pods-MuncheeUITests.debug.xcconfig */,
 				5F7E50B57E04FDE92F1A969F /* Pods-MuncheeUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,9 +146,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A63E235E22CBF3430089FE1D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A63E236322CCEE6D0089FE1D /* LoadingIndicatorView.swift */,
+				A63E235F22CBF3560089FE1D /* Common.swift */,
+				A63E236122CBFD3A0089FE1D /* KeyboardDoneBar.xib */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A63E236522CCEEF20089FE1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A63E236622CCF57C0089FE1D /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A63E236A22CCFA110089FE1D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A63E235C22CBF13D0089FE1D /* CreateAccountViewController.swift */,
+				A63E236B22CCFF370089FE1D /* LoginViewController.swift */,
+				A63E236D22CD294D0089FE1D /* TermsOfServiceViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A63E236F22CD307D0089FE1D /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				A63E237022CD30AC0089FE1D /* MenuTableViewController.swift */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		A63E237222CD3A4E0089FE1D /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				A63E237322CD3A5F0089FE1D /* HomeViewController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 		A6BE788022C159CF00AB7D65 = {
 			isa = PBXGroup;
 			children = (
+				A63E235E22CBF3430089FE1D /* Shared */,
+				A6BE78C122C16C3500AB7D65 /* SWRevealViewController */,
+				A6BE78BB22C163D200AB7D65 /* Driver */,
 				A6BE788B22C159CF00AB7D65 /* Munchee */,
 				A6BE78A022C159D000AB7D65 /* MuncheeTests */,
 				A6BE78AB22C159D000AB7D65 /* MuncheeUITests */,
@@ -138,9 +218,12 @@
 		A6BE788B22C159CF00AB7D65 /* Munchee */ = {
 			isa = PBXGroup;
 			children = (
+				A63E236522CCEEF20089FE1D /* Models */,
+				A63E236F22CD307D0089FE1D /* Drawer */,
+				A63E236A22CCFA110089FE1D /* Login */,
+				A63E237222CD3A4E0089FE1D /* Order */,
+				A6BE78BA22C15CB200AB7D65 /* Storyboards */,
 				A6BE788C22C159CF00AB7D65 /* AppDelegate.swift */,
-				A6BE788E22C159CF00AB7D65 /* ViewController.swift */,
-				A6BE789022C159CF00AB7D65 /* Main.storyboard */,
 				A6BE789322C159D000AB7D65 /* Assets.xcassets */,
 				A6BE789522C159D000AB7D65 /* LaunchScreen.storyboard */,
 				A6BE789822C159D000AB7D65 /* Info.plist */,
@@ -164,6 +247,46 @@
 				A6BE78AE22C159D000AB7D65 /* Info.plist */,
 			);
 			path = MuncheeUITests;
+			sourceTree = "<group>";
+		};
+		A6BE78BA22C15CB200AB7D65 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE789022C159CF00AB7D65 /* Login.storyboard */,
+				A6BE78C622C2722600AB7D65 /* UserMain.storyboard */,
+				A6BE78C922C29CDE00AB7D65 /* Profile.storyboard */,
+				A6BE78CB22C29CEF00AB7D65 /* Order.storyboard */,
+				A6BE78CD22C29D0A00AB7D65 /* OrderHistory.storyboard */,
+				A6BE78CF22C29D1C00AB7D65 /* ContactUs.storyboard */,
+				A6BE78D122C29D2E00AB7D65 /* Application.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A6BE78BB22C163D200AB7D65 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE78BC22C163DA00AB7D65 /* Storyboards */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		A6BE78BC22C163DA00AB7D65 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE78BD22C163ED00AB7D65 /* DriverLogin.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A6BE78C122C16C3500AB7D65 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE78C322C16C4900AB7D65 /* SWRevealViewController.h */,
+				A6BE78C422C16C4900AB7D65 /* SWRevealViewController.m */,
+				A6BE78C222C16C4900AB7D65 /* Munchee-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +361,7 @@
 				TargetAttributes = {
 					A6BE788822C159CF00AB7D65 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					A6BE789C22C159D000AB7D65 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -274,9 +398,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BE78CA22C29CDE00AB7D65 /* Profile.storyboard in Resources */,
+				A6BE78BE22C163ED00AB7D65 /* DriverLogin.storyboard in Resources */,
+				A6BE78C722C2722600AB7D65 /* UserMain.storyboard in Resources */,
 				A6BE789722C159D000AB7D65 /* LaunchScreen.storyboard in Resources */,
+				A6BE78D022C29D1C00AB7D65 /* ContactUs.storyboard in Resources */,
+				A6BE78CE22C29D0A00AB7D65 /* OrderHistory.storyboard in Resources */,
+				A6BE78CC22C29CEF00AB7D65 /* Order.storyboard in Resources */,
+				A63E236222CBFD3A0089FE1D /* KeyboardDoneBar.xib in Resources */,
+				A6BE78D222C29D2E00AB7D65 /* Application.storyboard in Resources */,
 				A6BE789422C159D000AB7D65 /* Assets.xcassets in Resources */,
-				A6BE789222C159CF00AB7D65 /* Main.storyboard in Resources */,
+				A6BE789222C159CF00AB7D65 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +519,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BE788F22C159CF00AB7D65 /* ViewController.swift in Sources */,
+				A63E236C22CCFF370089FE1D /* LoginViewController.swift in Sources */,
+				A63E236E22CD294D0089FE1D /* TermsOfServiceViewController.swift in Sources */,
+				A63E236022CBF3560089FE1D /* Common.swift in Sources */,
+				A63E236422CCEE6D0089FE1D /* LoadingIndicatorView.swift in Sources */,
+				A63E235D22CBF13D0089FE1D /* CreateAccountViewController.swift in Sources */,
+				A63E237422CD3A5F0089FE1D /* HomeViewController.swift in Sources */,
+				A63E237122CD30AC0089FE1D /* MenuTableViewController.swift in Sources */,
 				A6BE788D22C159CF00AB7D65 /* AppDelegate.swift in Sources */,
+				A63E236722CCF57C0089FE1D /* UserModel.swift in Sources */,
+				A6BE78C522C16C4900AB7D65 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +564,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6BE789022C159CF00AB7D65 /* Main.storyboard */ = {
+		A6BE789022C159CF00AB7D65 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6BE789122C159CF00AB7D65 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		A6BE789522C159D000AB7D65 /* LaunchScreen.storyboard */ = {
@@ -564,6 +704,7 @@
 			baseConfigurationReference = 5DED85EF414D9AE35A4F0B57 /* Pods-Munchee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGR8SN4X95;
 				INFOPLIST_FILE = Munchee/Info.plist;
@@ -573,6 +714,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.turnerApps.Munchee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWRevealViewController/Munchee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -583,6 +726,7 @@
 			baseConfigurationReference = 85AE415C2DEFF24C9DDE0952 /* Pods-Munchee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RGR8SN4X95;
 				INFOPLIST_FILE = Munchee/Info.plist;
@@ -592,6 +736,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.turnerApps.Munchee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWRevealViewController/Munchee-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var commonModule: Common = Common()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let configuration = ParseClientConfiguration {
+            $0.isLocalDatastoreEnabled = true
+            $0.applicationId = "Dn721uTGKKEU7fcrVGXZWC0hCfIf4WxDMV9Nz0PD"
+            $0.clientKey = "RG7T5Qrc6gqIIC5Bh1uTzzXYxvxwzLkj8XYeAP3U"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        
+        Parse.initialize(with: configuration)
+        
+        
+        self.commonModule.checkIfLoggedIn(window: self.window)
+        
+        
+        
         return true
     }
 

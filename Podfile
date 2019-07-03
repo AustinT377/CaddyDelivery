@@ -9,6 +9,7 @@ target 'Munchee' do
  pod 'Parse'
  pod 'Stripe'
  pod 'CardIO'
+ pod 'FontAwesomeKit.Swift'
   target 'MuncheeTests' do
     inherit! :search_paths
     # Pods for testing
